@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center  center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+.logo{
+    font-size: 30px;
+}
+nav ul li a:hover, a.sign-up {
+    background-color: #3352F2;
+    border-radius: 5px;
+}
+.main-form{
+    background-color: white;
+    width: 100%;
+    padding: 25px;
+    border: none;
+    border-radius: 10px;
+}
+/* .fillup{
+    display: none;
+} */
+
+input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #F3F5FF;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+hr {
+    margin: 0 auto;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.charge{
+    position: relative;
+    left: 32.7%;
+}
+.price-vat-total h6{
+    font-weight: bold;
+}
+.btn-style {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color: #3352F2;
+}
+
+.text-content h1{
+    font-family:  'Bebas Neue', cursive;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.quantity p span{
+    color: #3352F2;
+    padding: 0 5px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.details-page{
+    display: none;
+    background-color: white;
+    width: 700px;
+    padding: 25px;
+    border: none;
+    border-radius: 10px;
+}
+.details-page h5{
+    padding: 5px 0;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-page span{
+    color: royalblue;
+    text-align: center;
+}
+
+.plane{
+    display: none;
+}
+.plane img{
+    border: none;
+    border-radius: 20px;
+    width: 60em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
